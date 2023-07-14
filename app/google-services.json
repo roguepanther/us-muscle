@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "315505963048",
+    "project_id": "americanm-28b3f",
+    "storage_bucket": "americanm-28b3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315505963048:android:7be8e1b12df1421bf0c51d",
+        "android_client_info": {
+          "package_name": "com.nprkov.usmuscle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315505963048-d80po9pnt8qvkh9qsh419tb9s2rf78dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdqS8lx5mgQZqpLeo5oZfXEKRAbyOhvgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315505963048-d80po9pnt8qvkh9qsh419tb9s2rf78dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
