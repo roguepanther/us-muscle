@@ -5,19 +5,40 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     tools:context=".ViewsDodge">
-
     <TextView
-        android:id="@+id/textViewSecond"
+        android:id="@+id/betaTextHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dodge Cars"
-        android:textSize="24sp" />
+        android:text="Beta Sign Up"
+        android:textSize="24dp"
+        android:layout_marginBottom="8dp"/>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_below="@id/textViewSecond"
-        android:src="@drawable/ic_launcher_background" />
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/betaTextHeader"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFirstName"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLastName"
+        android:hint="Email Address" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:text="Submit" />
 
 </RelativeLayout>
