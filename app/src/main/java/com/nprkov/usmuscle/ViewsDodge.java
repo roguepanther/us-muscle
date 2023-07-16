@@ -7,8 +7,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 
+import androidx.appcompat.app.AppCompatActivity;
+import static ie.imobile.extremepush.PushConnector.mPushConnector;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -37,6 +38,9 @@ public class ViewsDodge extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 saveUserData();
+                mPushConnector.hitEvent("beta_signup");
+                mPushConnector.hitImpression("beta_interested");
+                mPushConnector.setUser("americanmuscle");
             }
         });
     }
@@ -65,6 +69,7 @@ public class ViewsDodge extends AppCompatActivity {
 
         // Push the user data to Firebase
         databaseReference.push().setValue(user);
+
 
         Toast.makeText(this, "Data saved successfully", Toast.LENGTH_SHORT).show();
     }

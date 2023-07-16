@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/black"
     android:gravity="center">
 
 
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="American Muscle powered by Nprkov.com"
         android:textSize="24sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:padding="16dp"
         />
