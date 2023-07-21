@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class LauncherActivity extends AppCompatActivity {
 
-    private static final long DELAY_DURATION = 4000;
+    private static final long DELAY_DURATION = 2500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
